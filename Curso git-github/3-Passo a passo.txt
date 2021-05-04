@@ -1,5 +1,5 @@
 Passo a passo
-----------------------------------------------
+-------------
 Git
 01-Inicie um novo projeto no Visual studio
 02-Na pasta do projeto clique com o botão direito e vá em "Gir Bash Here"

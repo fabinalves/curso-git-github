@@ -1,5 +1,5 @@
 Comandos
-----------------------------------------------
+--------
 Comando para iniciar um repositorio em uma pasta
 Abrir o Git Bash na pasta: botão direito > "Gir Bash Here"
 Comando: git init

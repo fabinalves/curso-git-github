@@ -1,5 +1,5 @@
 Situações
-----------------------------------------------
+---------
 Comando para sair do editor VIM
 Comando: :q!
 
