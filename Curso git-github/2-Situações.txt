@@ -25,3 +25,6 @@ git checkout main(nome da branch)
 Comando para atualizar um repositório local(git) Ex.: Vc e outra pessoa estão trabalhando no mesmo projeto, a segunda pessoa faz uma alteração
 no codigo e sobe para o github, e vc precisa atualizar seu codigo local(git) com essa alteração
 Comando: git pull origin main
+
+Comando usado para enviar conteúdo do repositório local para um repositório remoto
+git push
