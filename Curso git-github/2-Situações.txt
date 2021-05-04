@@ -1,0 +1,26 @@
+Situações
+----------------------------------------------
+Comando para sair do editor VIM
+Comando: :q!
+
+Comandos para descartar uma modificação feita no codigo. Ex.: Vc fez uma modificação no codigo mas ainda não commitou e quer apenas
+descartar essas modificações
+Comandos: 
+git clean -df
+git checkout -- .
+
+Comando para  remover o último commit mantendo as alterações nos arquivos: Ex: Vc fez uma alteração no
+codigo commitou mas queria mudar outra coisa e commitar novamente
+Comando: git reset --soft HEAD~1
+
+Comando para remover o último commit INCLUSIVE as alterações nos arquivos Ex: Vc fez uma alteração no
+codigo commitou mas queria remover o commit e as alterações feita no codigo.
+Comando: git reset --hard HEAD~1
+
+Comando para navegar entre commits, alterando os arquivos temporariamente e o comando para voltar para o último commit
+Comandos: 
+git checkout <código do commit>
+git checkout main(nome da branch)
+
+Comando para atualizar um repositório local(git)
+Comando: git pull origin main

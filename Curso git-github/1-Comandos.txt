@@ -1,0 +1,32 @@
+Comandos
+----------------------------------------------
+Comando para iniciar um repositorio em uma pasta
+Abrir o Git Bash na pasta: botão direito > "Gir Bash Here"
+Comando: git init
+
+Comando para exibir o estado do repositório
+Comando: git status
+
+Comando para colocar os arquivos na area de stage(Preparar os arquivos para serem commitados)
+Comando: git add .
+
+Comando para colocar um arquivo especifico na area de stage(Preparar o arquivo para ser commitado)
+Comando: git add <nome do arquivo>
+
+Comando para realizar um commit
+Comando: git commit -m "first commit"
+
+Comando para ver os commits de forma detalhada
+Comando: git log
+
+Comando para ver os commits em apenas uma linha
+Comando: git log --oneline
+
+Comando para criar uma branch com o nome "main"
+Comando: git branch -M main
+
+Comando para ASSOCIAR um repositório local(git) a um repositório remoto do Github
+Comando: git remote add origin https://github.com/fabinalves/test.git
+
+Comando para ENVIAR um repositorio local(Git) para um repositório remoto do Github
+Comando: git push -u origin main
